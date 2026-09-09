@@ -1,0 +1,9 @@
+.home-screen{isolation:isolate;background:#fff}
+.hero-ambient{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;user-select:none}
+.home-screen .cover{isolation:auto;z-index:auto}
+.home-screen .home-foot{position:relative;z-index:1}
+.about-body{isolation:isolate}
+.about-body:before{z-index:-1}
+.about-body>.hero-ambient{bottom:auto}
+.about-body>.about-copy,.about-body>.profile-dossier{position:relative;z-index:1}
+@media(prefers-reduced-motion:reduce){.hero-ambient{opacity:.65}}

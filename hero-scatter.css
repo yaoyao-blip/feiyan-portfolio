@@ -1,0 +1,8 @@
+.hero-scatter-stage{position:fixed;inset:0;z-index:58;overflow:hidden;pointer-events:auto;isolation:isolate}
+.hero-scatter-origin{position:absolute;pointer-events:none}
+.hero-scatter-origin>svg{display:block;width:100%;height:100%;overflow:visible;filter:drop-shadow(0 16px 12px #4773841a)}
+.hero-scatter-origin .scatter-sheet{transform-box:fill-box;transform-origin:45% 85%;will-change:transform,opacity}
+.hero-scatter-origin .folder-front{transform-origin:150px 610px}
+.hero-scatter-wash{position:absolute;inset:0;background:#fff;opacity:0;pointer-events:none}
+.hero-scatter-stage.is-leaving{opacity:0;transition:opacity .24s ease}
+@media(prefers-reduced-motion:reduce){.hero-scatter-stage{display:none}}
